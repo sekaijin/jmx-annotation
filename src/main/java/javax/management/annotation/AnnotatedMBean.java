@@ -219,7 +219,7 @@ public abstract class AnnotatedMBean extends StandardMBean {
       return c;
    }
 
-   private static final Map<String, Class<?>> primitiveClasses = new HashMap<String, Class<?>>();
+   private static final Map<String, Class<?>> primitiveClasses = new HashMap<>();
    static {
       Class<?>[] primitives = {byte.class, short.class, int.class, long.class, float.class, double.class, char.class, boolean.class};
       for (Class<?> clazz : primitives){
