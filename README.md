@@ -2,9 +2,9 @@
 
 This library allow to describe Mbean using annotation.
 
-@Description describe a MBean, Opération, Parameter
+@Description describe a MBean, Operation, Parameter
 
-@Impact define the impact of an opération
+@Impact define the impact of an operation
 
 @Name define the name of an parameter
 
