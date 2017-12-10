@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target({CONSTRUCTOR, METHOD, PARAMETER, TYPE})
+@Target({ CONSTRUCTOR, METHOD, PARAMETER, TYPE })
 public @interface Description {
-    String value();
+	String value();
 }
