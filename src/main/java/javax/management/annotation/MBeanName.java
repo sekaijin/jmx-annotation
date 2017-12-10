@@ -19,5 +19,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ TYPE })
 public @interface MBeanName {
-	String value();
+    String value();
 }
