@@ -10,3 +10,4 @@ This library allow to describe Mbean using annotation.
 
 @MBeanName define a pattern for ObjectName. This allow to autoregister the MBean object.
 
+see [jco-factory](https://github.com/sekaijin/jco-factory/tree/master/jco-factory/src/main/java/com/sap/conn/jco/factory/jmx) for example.
